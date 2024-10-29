@@ -68,3 +68,6 @@ vim.opt.shiftwidth = 4		-- Controla cuantos espacios se agregan al indentar
 vim.opt.tabstop = 4		-- Define como se interpretan los Tab como espacios
 vim.opt.softtabstop = 4		-- Controla como funcionan los Tab y los Backspace durante la edicion
 vim.opt.expandtab = true	-- Convierte los tab en espacios
+
+-- Usar 24 bits de colores
+vim.opt.termguicolors = true

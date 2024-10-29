@@ -20,7 +20,8 @@ vim.opt.rtp:prepend(lazypath)
 -- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
-
+-- Si tiene instalada un nerd font en el terminal, que muestra iconos especiales.
+vim.g.have_nerd_font = true 
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
@@ -32,3 +33,7 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+-- color scheme
+--vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("tokyonight-moon")
+--vim.cmd.colorscheme("gruvbox-material")
